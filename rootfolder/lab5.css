@@ -1,0 +1,251 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  max-width: 751px;
+  max-height: 700px;
+  font-family: Verdana;
+}
+
+.headblock1{
+  height: 35px;
+  width: 538px;
+  background-color: #20207e;
+  float: left;
+}
+
+#tooth{
+  position: absolute; 
+}
+
+#dental{
+  position: absolute;
+  left: 192px;
+}
+
+.headblock2{
+  width: 213px;
+  height: 51px;
+  background-color: #ff7d21;
+  float: right;
+  border-bottom: 1px solid #20207e;
+}
+
+.headblock3{
+  width: 537px;
+  height: 79px;
+  background-color: #ff7d21;
+  float: left;
+  border-right: 1px solid #20207e;
+  border-bottom: 1px solid #20207e;
+  text-align: right;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.7px;
+}
+
+.headblock4{
+  width: 213px;
+  height: 78px;
+  background-color: #ff7d21;
+  float: right;
+  border-bottom-right-radius: 8px;
+}
+
+#search{
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bolder;
+  padding: 4px 0px 0px 6px;
+}
+
+#search input[type="text"] {
+  margin: 5px 0px 0px 51px;
+  width: 148px;
+  height: 18px;
+  border: 1px solid black;
+}
+
+#search input[type=image]{
+  margin-top: 3px;
+}
+
+.mainblock1{
+  height: 625px;
+  width: 537px;
+  background-color: #ff7d21;
+  float: left;
+  border-right: 1px solid #20207e;
+}
+
+#date{
+  margin: 0px 3px 0px 4px;
+  height: 38px;
+  border-left: solid 1px #20207e;
+  text-align: right;
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+.menublock{
+  width: 175px;
+  height: 291px;
+  position: absolute; top:115px; left: 4px;
+}
+
+ul{
+  margin-top: 38px; 
+  border-left: solid 1px #20207e;
+  border-bottom: solid 1px #20207e;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+li{
+  background: url(images/spot.gif) 0px 5px no-repeat;
+  border-top: 1px solid #20207e;  
+  padding: 3px 0 3px 12px; 
+}
+
+#markfirst{
+  background: url(images/spot.gif) 0px 5px no-repeat;
+  padding: 2px 0 3px 12px;
+}
+
+#marklast{
+  padding: 3px 0 6px 12px;
+}
+
+#features{
+  width: 170px;
+  height: 268px;
+  margin-top: 317px;
+  margin-left: 4px;
+  border: 1px solid white;
+  background-color: white;
+  line-height: 12.5px;
+  font-size: 11px;
+}
+
+article{
+  padding-left: 5px;
+  letter-spacing: 0.7px;
+}
+
+.mainblock2{
+  position: absolute; top:130px; left: 180px;
+  width: 572px;
+  height: 610px;
+  background-color: #ffffff;
+} 
+
+.titlemain{
+  height: 16px;
+  width: 559px;
+  position: absolute; top:10px; left: 13px;
+  background-color: #20207e;
+}
+
+.titlemain p{
+  color: white;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 1px 0px 0px 9px;
+}
+
+.content1{
+  position: absolute; top:26px; left: 13px;
+  padding: 10px 0px 0px 6px;
+  width: 551px;
+  height: 408px;
+  border: 1px solid #20207e;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.content1 img{
+  position: absolute; bottom: 0px; right: 0px;
+}
+
+.content1 input[type="button"]{
+  width: 30%;
+  height: 10%;
+  border:3px solid #20207e;
+  border-radius: 5px;
+  color: #20207e;
+  font-weight: bold;
+}
+
+span{
+  color: #20207e;
+  font-weight: bolder; 
+}
+
+.content2{
+  position: absolute; top:445px; left: 13px;
+  padding: 10px 0px 0px 6px;
+  width: 551px;
+  height: 153px;
+  border: 1px solid #20207e;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+/* form.php */
+
+#calculator{
+  background-color: #ff7d21;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+form{
+  width: 255px;
+  height: 175px;
+  border: 10px solid #20207e;
+  border-radius: 18px;
+  padding: 25px;
+  background-color: #ff7d21;
+}
+
+ form input, textarea {
+  display: block;
+  width: 255px;
+  margin-top: 2px;
+}
+
+form span{
+  font-size: 10.5px;
+}
+
+select{
+  width:259px;
+}
+
+button{
+  margin-top: 2px;
+  margin-left: 40%;
+  width: 60px;
+  border:3px solid #20207e;
+  border-radius: 5px;
+  color: #20207e;
+  font-weight: bold;
+
+}
+
+button:hover, .content1 input[type="button"]:hover{
+  background-color: #ff7d21;
+  cursor: pointer;
+}
+
+/* server.php */
+.server{
+  overflow: scroll;
+  font-size: 10px;
+}
+
